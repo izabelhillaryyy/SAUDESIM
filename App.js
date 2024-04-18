@@ -1,12 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Title from './SRC/Components/Title';
+import Title from './SRC/Components/Title/main';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-     <Title/>
-     <Main/>
+        <Title/>
+   
     </View>
   );
 }
